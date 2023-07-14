@@ -16,5 +16,17 @@
 		"8080": { // define the port to be used
 			"label": "Craft"
 		}
-	}
+	},
+  "remoteEnv": {
+    "CRAFT_ENVIRONMENT": "dev",
+    "CRAFT_DB_DRIVER": "mysql",
+    "CRAFT_DB_SERVER": "127.0.0.1",
+    "CRAFT_DB_PORT": "3306",
+    "CRAFT_DB_USER": "root",
+    "CRAFT_DB_SCHEMA": "public",
+    "CRAFT_DB_TABLE_PREFIX": "",
+    "DEV_MODE": "true",
+    "ALLOW_ADMIN_CHANGES": "true",
+    "DISALLOW_ROBOTS": "true"
+  }
 }
